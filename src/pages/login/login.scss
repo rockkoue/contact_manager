@@ -1,0 +1,38 @@
+
+ion-title{
+    text-align: center;
+    color:#fff !important;
+}
+ion-content{
+    margin-top: 20%;
+    
+}
+.contact{
+    background-image: url('https://q-xx.bstatic.com/images/hotel/max1024x768/460/46072868.jpg') !important;
+}
+ion-icon{
+    font-size: 15vh;
+}
+ion-button{
+    margin-top:5px;
+}
+ion-button:hover{
+    color: red;
+}
+.toolbar-background {   
+     background-color: rgb(75, 128, 224) !important;
+}
+#monForm
+{
+    margin: 0;
+    padding: 0;
+    margin-top:20vh;
+    margin-bottom: 50vh;
+}
+.btn{
+width: 50%;
+height: 50px;
+margin: 10px;
+color: #fff;
+background-color: blue;
+}

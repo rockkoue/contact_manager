@@ -1,0 +1,27 @@
+<ion-header>
+ 
+    <ion-navbar>
+      <ion-title >
+        Login
+      </ion-title>
+    </ion-navbar>
+  </ion-header>
+  
+  <ion-content padding center text-center class="contact">
+    <ion-title id="contact"> 
+        <ion-icon name="contact"></ion-icon>
+    </ion-title>
+      <ion-item>
+        <ion-label>Login</ion-label>
+        <ion-input type="text"  [(ngModel)]="login" ></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-label>password</ion-label>
+        <ion-input type="password" [(ngModel)]="password" ></ion-input>
+      </ion-item>
+      <button ion-button full (click)="connceted()" >Lancer la connexion</button>
+      <button ion-button full (click)="register()" >Register</button>
+     
+     
+  </ion-content>
+  
